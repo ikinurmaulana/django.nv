@@ -26,8 +26,8 @@ jobs:
   artifact:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello guys" > hello.txt
       - name: upload artifatc
+        run: echo "hello guys" > hello.txt
         uses: actions/download-artifact@v3
         with:
           name: hello

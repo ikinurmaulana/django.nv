@@ -30,7 +30,7 @@ jobs:
   artifact:
     docker:
       - image: python:3.6
-    step:
+    steps:
       - checkout
       - run:
           command: |
